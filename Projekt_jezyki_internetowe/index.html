@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,111 +6,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <script src="script.js" defer></script>
+    <title>Strona z filmami</title>
 </head>
 
 <body>
     <header>
         <a href="index.html">
-            <img src="logo.webp" alt="logo" width="" height="" />
+            <img src="./Assets/logo.webp" alt="logo" width="" height="" />
         </a>
         <div class="navbar">
             <a href="index.html">filmy</a>
             <a href="premium.html" class="premium-link">Premium</a>
-            <a href="">Kontakt</a>
-            <a href="O-nas.html">O nas</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="AboutUs.html">O nas</a>
         </div>
     </header>
 
     <main>
         <div class="category">
-            <button>akcja </button>
-            <button> przygody </button>
-            <button> komedia </button>
-            <button> dla dzieci </button>
-            <button> przyrodnicze </button>
-            <button> horror </button>
-            <button> ulubione
-                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20px">
-                    <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="gold"
-                        stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
-                </svg>
-            </button>
+            <button id="action"> akcja </button>
+            <button id="adventure"> przygody </button>
+            <button id="commedy"> komedia </button>
+            <button id="kids"> dla dzieci </button>
+            <button id="horror"> horror </button>
+            <button id="wszystkie"> wszystkie </button>
         </div>
 
 
         <div class="films">
-            <div class="card">
-                <span>zdjecie</span>
-                <h4>Nazwa filmu</h4>
-                <div class="two-in-row">
-                    <h3>rok produkcji</h3>
-                    <h3>Średnia ocena widzów</h3>
-                </div>
-                <p>Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu</p>
-                <button>Dodaj do ulubionych
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20px">
-                        <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
-                            stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
-                    </svg>
-                </button>
-            </div>
-
-            <div class="card">
-                <span>zdjecie</span>
-                <h4>Nazwa filmu</h4>
-                <div class="two-in-row">
-                    <h3>rok produkcji</h3>
-                    <h3>Średnia ocena widzów</h3>
-                </div>
-                <p>Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu</p>
-                <button>Dodaj do ulubionych
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20px">
-                        <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
-                            stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
-                    </svg>
-                </button>
-            </div>
-
-            <div class="card">
-                <span>zdjecie</span>
-                <h4>Nazwa filmu</h4>
-                <div class="two-in-row">
-                    <h3>rok produkcji</h3>
-                    <h3>Średnia ocena widzów</h3>
-                </div>
-                <p>Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu</p>
-                <button>Dodaj do ulubionych
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20px">
-                        <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
-                            stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
-                    </svg>
-                </button>
-            </div>
-
-
-            <div class="card">
-                <span>zdjecie</span>
-                <h4>Nazwa filmu</h4>
-                <div class="two-in-row">
-                    <h3>rok produkcji</h3>
-                    <h3>Średnia ocena widzów</h3>
-                </div>
-                <p>Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu Opis filmu</p>
-                <button>Dodaj do ulubionych
-                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20px">
-                        <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
-                            stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
-                    </svg>
-                </button>
-            </div>
+            <div id="movies-container" />
         </div>
     </main>
 
     <footer>
         <hr />
-        <h4> Copywight icon Strona z filmami wszelkie prawa zastrzeżone 2023.</h4>
+        <h4> <img src="./Assets/Copyright-Linear-16px.svg" alt=""/> Strona z filmami wszelkie prawa zastrzeżone 2023.</h4>
     </footer>
 </body>
 
 </html>
+
+

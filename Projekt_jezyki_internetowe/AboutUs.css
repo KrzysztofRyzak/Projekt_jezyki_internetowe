@@ -1,0 +1,28 @@
+.aboutus-title {
+    padding: 4rem;
+    margin-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .7px;
+    font-size: 44px;
+}
+
+.aboutus-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    background-color: #5275e1;
+    width: 65%;
+    min-height: 400px;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px 5px #5275e1;
+}
+
+.aboutus-content p {
+    padding: 2.5rem;
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: .7px;
+}
